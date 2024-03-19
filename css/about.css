@@ -4,7 +4,8 @@ body {
 }
 
 main {
-    width: 790px;
+    width: 100%;
+    max-width: 790px;
     margin: 5% auto;
     font-family: "Times New Roman";
     color: #0088ff;
@@ -51,22 +52,15 @@ figcaption::first-letter {
     font-size: 150%;
 }
 
-table {
-    margin: 0 auto; /* Center the table horizontally */
-    width: 100%; /* Ensure the table fills the available width */
-    max-width: 790px; /* Limit the maximum width of the table */
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-tr:nth-child(odd) {
-    background-color: #f2f2f2;
-}
-
-td {
-    padding: 10px 20px;
-}
-
-.title {
-    font-weight: bold;
+main > div {
+    flex: 0 0 calc(25% - 40px); /* Adjust as needed */
+    margin: 20px;
+    max-width: calc(25% - 40px); /* Adjust as needed */
 }
 
 p a {
@@ -89,4 +83,7 @@ footer {
 footer a {
     color: #0088ff;
 }
+
+
+
 
