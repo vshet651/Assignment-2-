@@ -1,8 +1,10 @@
 main {
-    margin: 5% 15%;
+    margin: 5% auto;
     font-family: "Times New Roman";
-    color: #000000;
-    
+    color: #0088ff;
+    width: 790px; /* Set fixed width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
 }
 
 table {
@@ -13,7 +15,6 @@ td img {
     display: inline;
     width: 300px;
     height: 190px;
-    
 }
 
 td {
@@ -25,6 +26,7 @@ td {
 
 p {
     padding: 0px 100px;
+    text-align: center; /* Align paragraph text to center */
 }
 
 h2 {
@@ -33,27 +35,28 @@ h2 {
 }
 
 hr {
-    color: #636363;
     height: 5px;
-    background-color: #636363;
+    color: #ff0000;
+    background-color: #ff0000;
 }
 
 #partyText {
     padding: 0px 400px;
+    text-align: center; /* Align text within #partyText to center */
 }
 
 footer {
     display: block;
-    background-color: #636363;
+    background-color: #ff0000;
     text-align: center;
     bottom: 0;
     height: 120px;
     width: 100%;
     padding-top: 30px;
     font-family: "Times New Roman";
-    color: #000000;
+    color: #0088ff;
 }
 
 footer a {
-    color: #000000;
+    color: #0088ff;
 }
