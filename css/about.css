@@ -52,15 +52,18 @@ figcaption::first-letter {
     font-size: 150%;
 }
 
-main {
+main > div.flex-container {
     display: flex;
+    justify-content: center; 
     flex-wrap: wrap;
 }
 
-main > div {
-    flex: 0 0 calc(25% - 40px); /* Adjust as needed */
+main > div.flex-container > .flex-item {
+    flex: 0 0 calc(50% - 40px);
     margin: 20px;
-    max-width: calc(25% - 40px); /* Adjust as needed */
+    max-width: calc(50% - 40px); 
+    text-align: center; 
+    border: 3px #0088ff;
 }
 
 p a {
@@ -83,6 +86,7 @@ footer {
 footer a {
     color: #0088ff;
 }
+
 
 
 
