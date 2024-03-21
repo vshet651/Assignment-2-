@@ -2,9 +2,9 @@ main {
     margin: 5% auto;
     font-family: "Times New Roman";
     color: #0088ff;
-    width: 790px; /* Set fixed width */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table {
@@ -26,7 +26,7 @@ td {
 
 p {
     padding: 0px 100px;
-    text-align: center; /* Align paragraph text to center */
+    text-align: center;
 }
 
 h2 {
@@ -42,7 +42,7 @@ hr {
 
 #partyText {
     padding: 0px 400px;
-    text-align: center; /* Align text within #partyText to center */
+    text-align: center;
 }
 
 footer {
@@ -59,4 +59,33 @@ footer {
 
 footer a {
     color: #0088ff;
+}
+
+
+@media (max-width: 790px) {
+    main {
+        width: 100%;
+    }
+
+    td {
+        width: 100%;
+    }
+
+    td img {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        padding: 0px 20px;
+    }
+
+    #partyText {
+        padding: 0px 20px;
+    }
+}
+
+
+@media (min-width: 791px) {
+
 }
