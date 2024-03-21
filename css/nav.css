@@ -1,7 +1,7 @@
 nav {
     text-align: center;
-    width: 790px; /* Set fixed width */
-    margin: 0 auto; /* Center the element */
+    width: 790px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -23,7 +23,7 @@ nav .nav-links {
 }
 
 nav .nav-links li {
-    display: block; /* Change to block to stack vertically */
+    display: block;
 }
 
 nav img {
@@ -44,10 +44,25 @@ nav li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to black on hover */
 nav li a:hover {
     background-color: #0088ff;
     color: #ff0000;
+}
+
+@media (max-width: 790px){
+    body{
+        max-width: 790px;
+        margin: 0 auto;
+    }
+
+    nav{
+        width: 100%;
+    }
+}
+
+@media (min-width: 791px){
+
 }
 
 

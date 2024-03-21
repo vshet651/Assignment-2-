@@ -1,22 +1,3 @@
-/* Main content styling */
-main {
-    margin: 5% auto;
-    font-family: "Times New Roman";
-    color: #0088ff;
-    text-align: center;
-    width: 790px;
-}
-
-h2 {
-    text-align: center;
-}
-
-hr {
-    height: 5px;
-    color: #ff0000;
-    background-color: #ff0000;
-}
-
 /* Flexbox layout for the history section */
 #Computer_History {
     display: flex;
@@ -60,3 +41,15 @@ footer a {
     color: #0088ff;
 }
 
+
+@media (max-width: 790px) {
+    body {
+        max-width: 790px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 791px) {
+    
+}

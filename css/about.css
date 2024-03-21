@@ -54,15 +54,15 @@ figcaption::first-letter {
 
 main > div.flex-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 main > div.flex-container > .flex-item {
     flex: 0 0 calc(50% - 40px);
     margin: 20px;
-    max-width: calc(50% - 40px); 
-    text-align: center; 
+    max-width: calc(50% - 40px);
+    text-align: center;
     border: 3px #0088ff;
 }
 
@@ -88,6 +88,27 @@ footer a {
 }
 
 
+@media (max-width: 790px) {
+    body {
+        max-width: 790px;
+        margin: 0 auto;
+    }
+
+    main {
+        margin: 5% auto;
+    }
+
+    .logo {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    figure img {
+        width: 100%;
+    }
+}
 
 
-
+@media (min-width: 791px) {
+    
+}
