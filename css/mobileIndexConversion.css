@@ -1,0 +1,49 @@
+/* CSS for mobile devices */
+
+/* Make body take full width */
+body {
+    width: 100%; 
+  }
+  
+  /* Make nav menu stack vertically */
+  nav ul {
+    flex-direction: column;
+  }
+  
+  /* Make logo take full width */
+  nav .logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Make nav links full width */  
+  nav li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Make all sections stack vertically */
+  section, article, div {
+    width: 100%;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Make form stack vertically */
+  form label, form input, form textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  /* Make footer links stack */
+  footer {
+    text-align: center;
+  }
+  
+  footer a {
+    display: block;
+  }

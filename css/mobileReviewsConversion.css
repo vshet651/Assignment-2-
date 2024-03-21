@@ -1,0 +1,46 @@
+/* Mobile Styles for Reviews Page */
+
+/* Make body take full width */
+body {
+    width: 100%;
+  }
+  
+  /* Make header logo take full width */
+  header .logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Make nav menu stack vertically */  
+  nav ul {
+    flex-direction: column;
+  }
+  
+  /* Make nav links full width */
+  nav li {
+    width: 100%;
+    text-align: center;
+  } 
+  
+  /* Reviews section */
+  #reviews {
+    flex-direction: column;
+  }
+  
+  .review {
+    width: 100%;
+  }
+  
+  /* Form section */
+  form label, form input, form textarea {
+    width: 100%; 
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+  }
+  
+  footer a {
+    display: block;
+  }

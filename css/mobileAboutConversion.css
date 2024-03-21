@@ -1,0 +1,48 @@
+/* CSS for mobile devices */
+
+@media only screen and (max-width: 600px) {
+
+    /* Header */
+    nav ul {
+      flex-direction: column; 
+    }
+    
+    nav li {
+      margin: 10px 0;
+    }
+    
+    /* Main content */
+    h1 {
+      font-size: 1.5em;
+    }
+    
+    h2 {
+      font-size: 1.2em;
+    }
+    
+    p {
+      font-size: 0.9em;
+    }
+  
+    /* Flexbox */
+    .flex-container {
+      flex-direction: column;
+    }
+    
+    .flex-item {
+      margin: 10px 0;
+    }
+    
+    /* Images */
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Footer */
+    footer {
+      text-align: center;
+      font-size: 0.8em;
+    }
+    
+  }
